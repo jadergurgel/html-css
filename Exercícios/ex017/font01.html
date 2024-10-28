@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc (paica)
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+
+             /* ligther / normal / bold / bolder */
+        }
+        h1 {
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nobis quibusdam a magnam ipsam? Quam quidem, voluptate laudantium beatae inventore in, est fugit pariatur laborum aperiam iusto magnam harum ipsa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni perferendis nemo aliquam provident facere, consequuntur rem! Quaerat accusantium alias asperiores. Maxime perspiciatis similique quaerat sunt magnam amet id iusto facilis?</p> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloremque quas asperiores reiciendis vel expedita laborum repudiandae, quod reprehenderit veritatis sed ipsa maiores ut molestias optio in animi nemo et!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate atque est ad, esse quasi ipsum reprehenderit veniam soluta impedit placeat quas accusantium! Reiciendis natus quas dignissimos delectus eligendi repudiandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ad beatae facere ipsam velit quod officia illo eos. Recusandae beatae necessitatibus labore, rerum eaque et totam maxime! Nobis, omnis blanditiis!</p>
+</body>
+</html>
